@@ -3,8 +3,8 @@ import torch
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from transformers import RobertaTokenizerFast
-from .utils import clean_text
-from model import RoBERTaClassifier
+from backend.utils import clean_text
+from backend.model import RoBERTaClassifier
 import gdown
 
 app = Flask(__name__)
