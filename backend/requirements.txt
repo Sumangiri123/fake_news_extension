@@ -1,0 +1,8 @@
+flask
+flask-cors
+torch
+transformers
+scikit-learn
+pandas
+gunicorn
+gdown

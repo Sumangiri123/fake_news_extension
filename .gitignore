@@ -1,0 +1,15 @@
+# .gitignore
+
+# Ignore virtual environment
+venv/
+datasets/
+# Ignore model weights and large files
+*.pt
+*.dll
+*.lib
+*.pkl
+*.csv
+
+# Ignore cache files
+__pycache__/
+*.pyc
